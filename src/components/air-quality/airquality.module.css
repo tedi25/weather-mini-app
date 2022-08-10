@@ -1,0 +1,65 @@
+hr {
+  color: white;
+}
+.title {
+  margin-bottom: 20px;
+}
+.detail {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 50px;
+  justify-items: center;
+}
+
+.airquality {
+  min-width: 60px;
+}
+
+.description {
+  min-width: 100%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.good {
+  /* border-top: 3px solid green; */
+  text-decoration: overline;
+  text-decoration-color: #009b00;
+  text-decoration-thickness: 3px;
+}
+
+.fair {
+  /* border-top: 3px solid green; */
+  text-decoration: overline;
+  text-decoration-color: #4f7735;
+  text-decoration-thickness: 3px;
+}
+
+.moderate {
+  /* border-top: 3px solid green; */
+  text-decoration: overline;
+  text-decoration-color: #b59309;
+  text-decoration-thickness: 3px;
+}
+
+.poor {
+  /* border-top: 3px solid green; */
+  text-decoration: overline;
+  text-decoration-color: #b87004;
+  text-decoration-thickness: 3px;
+}
+
+.very-poor {
+  /* border-top: 3px solid green; */
+  text-decoration: overline;
+  text-decoration-color: #971237;
+  text-decoration-thickness: 3px;
+}
+
+.description > a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #fc4349;
+  --secondary-color: #6dbcdb;
+  --tertiary-color: #f7f7f7;
+  --dark-color: #2d3e50;
+  --light-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e3e3e3;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+span {
+  font-size: medium;
+}
+
+h2 {
+  font-weight: 700;
+}
